@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gilda+Display&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+/*---Header---*/
+.header {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.header h1 {
+  color: #ffffff;
+}
+
+.style-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.style-list a {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.style-list li {
+  margin-right: 20px;
+}
+
+/*---Main index---*/
+.banner {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+.banner img {
+  width: 60%;
+  height: auto;
+}
+
+.content img {
+  margin: 10px;
+  padding: auto;
+  max-width: 70%;
+  height: auto;
+}
+
+.content {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h2 {
+  margin: 40px;
+  font-size: 35px;
+  text-align: center;
+}
+
+/*---Tripulación---*/
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main section {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.main img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.main p,
+.main figcaption {
+  font-size: 22px;
+  text-align: justify;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  max-width: 600px;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.text-justity {
+  text-align: justify;
+}
+
+/*---Galería---*/
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.galeria img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/*---Frutas del Diablo---*/
+.frutas-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section,
+.frutas_banner,
+.contenedor_frutas {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contenedor_frutas img,
+section img,
+.frutas_banner img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.styles-text {
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/*Capítulos*/
+
+.card {
+  height: auto;
+}
+
+/*---Footer---*/
+.footer {
+  background-color: #000000;
+  padding: 40px;
+}
+
+ul {
+  padding: 0 !important;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elem {
+  list-style: none;
+}
+
+.menu-icon {
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.65;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+
+.text {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  opacity: 0.75;
+}

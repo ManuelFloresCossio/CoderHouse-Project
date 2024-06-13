@@ -1,5 +1,7 @@
-@charset "UTF-8";
+@import "./_utils.scss";
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gilda+Display&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap");
+$superBlack: #000;
+$supremeWhite: #fff;
 * {
   margin: 0;
   padding: 0;
@@ -8,34 +10,33 @@
   font-weight: bold;
   font-style: normal;
 }
-
 /*---Header---*/
 .header {
-  background-color: #000;
-  display: flex;
+  background-color: $superBlack;
+  @include displayFlex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
 }
 
 .bg-black {
-  background-color: #000;
+  background-color: $superBlack;
 }
 
 .header h1 {
-  color: #fff;
+  color: $supremeWhite;
 }
 
 .style-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
+  @include displayFlex;
 }
 
 .style-list a {
-  color: #fff;
-  display: flex;
+  color: $supremeWhite;
+  @include displayFlex;
   justify-content: space-between;
   text-decoration: none;
 }
@@ -47,10 +48,9 @@
 /*---Main index---*/
 .banner {
   margin: 40px;
-  display: flex;
+  @include displayFlex;
   justify-content: center;
 }
-
 .banner img {
   width: 60%;
   height: auto;
@@ -68,7 +68,7 @@
   margin-left: auto;
   margin-bottom: 40px;
   width: 100%;
-  display: flex;
+  @include displayFlex;
   flex-direction: column;
   align-items: center;
   font-size: 22px;
@@ -85,7 +85,7 @@ h2 {
 
 /*---Tripulación---*/
 .main {
-  display: flex;
+  @include displayFlex;
   flex-direction: column;
   align-items: center;
 }
@@ -120,7 +120,7 @@ h2 {
 
 /*---Galería---*/
 .galeria {
-  display: flex;
+  @include displayFlex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
@@ -129,13 +129,12 @@ h2 {
 
 .galeria img {
   max-height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /*---Frutas del Diablo---*/
 .frutas-main {
-  display: flex;
+  @include displayFlex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -165,22 +164,22 @@ section img,
 }
 
 /*Capítulos*/
+
 .card {
   height: auto;
 }
 
 /*---Footer---*/
 .footer {
-  background-color: #000;
+  background-color: $superBlack;
   padding: 40px;
 }
 
 ul {
   padding: 0 !important;
 }
-
 .menu {
-  display: flex;
+  @include displayFlex;
   justify-content: center;
   position: relative;
   align-items: center;
@@ -193,7 +192,7 @@ ul {
 }
 
 .menu-icon {
-  color: #fff;
+  color: $supremeWhite;
   font-size: 20px;
   display: inline-block;
   text-decoration: none;
@@ -207,10 +206,10 @@ ul {
 }
 
 .text {
-  color: #fff;
+  color: $supremeWhite;
   text-align: center;
   margin-top: 15px;
   margin-bottom: 10px;
   font-size: 20px;
   opacity: 0.75;
-}/*# sourceMappingURL=styles.css.map */
+}

@@ -45,6 +45,10 @@
 }
 
 /*---Main index---*/
+.history-body {
+  background-color: #191919;
+}
+
 .banner {
   margin: 40px;
   display: flex;
@@ -54,6 +58,13 @@
 .banner img {
   width: 60%;
   height: auto;
+}
+
+.history-title {
+  color: #f4f4f4;
+  margin: 40px;
+  font-size: 35px;
+  text-align: center;
 }
 
 .content img {
@@ -81,6 +92,11 @@ h2 {
   margin: 40px;
   font-size: 35px;
   text-align: center;
+}
+
+.history-text {
+  color: #f4f4f4;
+  margin-top: 30px;
 }
 
 /*---Tripulación---*/
@@ -147,7 +163,7 @@ section,
   max-width: 800px;
   width: 100%;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 30px;
 }
 
 .contenedor_frutas img,
@@ -155,7 +171,23 @@ section img,
 .frutas_banner img {
   max-width: 100%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 30px;
+}
+
+.clasifi-frutas {
+  padding: 30px;
+}
+
+.frutas-p {
+  padding-bottom: 30px;
+}
+
+.zoan-title {
+  padding-top: 35px;
+}
+
+.logia-title {
+  padding-top: 35px;
 }
 
 .styles-text {

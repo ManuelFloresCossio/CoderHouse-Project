@@ -211,6 +211,12 @@ section img,
   width: 100%;
 }
 
+/*---H1---*/
+.center-h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
 /*---Footer---*/
 .footer {
   background-color: #000;
